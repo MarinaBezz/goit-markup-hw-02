@@ -36,24 +36,53 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+.header-list-link {
+  text-decoration: none;
+}
+
+.header-list-link:hover,
+.header-list-link:focus {
+  color: #404bbf;
+}
+
 .address {
 }
 
 .address-list {
   list-style-type: none;
 }
-.address-item {
+
+.address-link {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
 
 /*---------------------SOLUTIONS---------------------*/
-.solutions {
+.main-header {
   background-color: #2e2f42;
+}
+
+.main-header-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.solutions {
+  background-color: #e5e5e5;
 }
 .solution-title {
   font-weight: 700;
@@ -94,6 +123,7 @@ body {
 
 /*---------------------DOING---------------------*/
 .doing {
+  background-color: #e5e5e5;
 }
 
 .doing-title {
@@ -112,6 +142,7 @@ body {
 
 /*---------------------TEAM---------------------*/
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -167,4 +198,49 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/*---------------------PORTFOLIO BUTTONS---------------------*/
+.portfolio {
+}
+.portfolio-list {
+  list-style-type: none;
+}
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+/*---------------------PORTFOLIO services---------------------*/
+
+.services {
+}
+.services-list {
+  list-style-type: none;
+}
+.services-item {
+}
+
+.service-link {
+  text-decoration: none;
+}
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-main-color);
+}
+.services-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
