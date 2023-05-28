@@ -2,9 +2,9 @@
   --title-main-color: #2e2f42;
   --main-text-color: #434455;
   --background-white: #ffffff;
-  --accent-color:#4d5ae5; 
-  --accent-color-button:#404bbf;
-  --background-beige:#f4f4fd; 
+  --accent-color: #4d5ae5;
+  --accent-color-button: #404bbf;
+  --background-beige: #f4f4fd;
 }
 
 body {
@@ -12,8 +12,6 @@ body {
   color: var(--main-text-color);
   background-color: var(--background-white);
 }
-
-
 
 .link {
   text-decoration: none;
@@ -85,7 +83,6 @@ body {
 
 /*---------------------SOLUTIONS---------------------*/
 .solutions {
-  
 }
 .solution-title {
   font-weight: 700;
@@ -101,7 +98,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--background-white); 
+  color: var(--background-white);
   cursor: pointer;
   background-color: var(--accent-color);
 }
@@ -126,7 +123,6 @@ body {
 
 /*---------------------DOING---------------------*/
 .doing {
-  
 }
 
 .doing-title {
@@ -214,7 +210,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: var(--background-white)
+  color: var(--background-white);
   background-color: var(--accent-color-button);
 }
 
