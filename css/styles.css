@@ -214,7 +214,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: var(--accent-color-button)
+  color: var(--background-white)
   background-color: var(--accent-color-button);
 }
 
